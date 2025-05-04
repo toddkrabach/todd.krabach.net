@@ -1,0 +1,20 @@
+body {
+    font-family: monospace;
+    background-color: #0D0208;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #00FF41;
+}
+p {
+    color: #008F11;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #003B00;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
