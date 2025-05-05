@@ -1,19 +1,27 @@
 body {
     font-family: monospace;
-    background-color: #0D0208;
+    background-color: rgb(13,2,8);
     margin: 0;
     padding: 20px;
 }
 h1 {
-    color: #00FF41;
+    color: rgb(0,255,65);
 }
 p {
-    color: #008F11;
+    color: rgb(0,143,17);
+}
+canvas#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }
 .container {
     max-width: 800px;
     margin: auto;
-    background: #003B00;
+    background: rgba(13,2,8,0.8);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
